@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Doorstep laundry pickup, washing, ironing, and delivery. Book your laundry service in minutes.">
+    <title>LaundryPro | Doorstep Laundry Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo" aria-label="LaundryPro home">
+                <img src="Images/Laundry Manage System-02.png" alt="LaundryPro logo" class="logo">
+                <span class="nav__brand">LaundryPro</span>
+            </a>
+
+            <ul class="nav__menu">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li><a href="#services" class="nav__link">Services</a></li>
+                <li><a href="#workflow" class="nav__link">Workflow</a></li>
+                <li><a href="#pricing" class="nav__link">Pricing</a></li>
+                <li><a href="#contact" class="nav__link nav__link--cta">Book Demo</a></li>
+            </ul>
+
+            <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 96 960 960" width="24" aria-hidden="true">
+                    <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"></path>
+                </svg>
+            </button>
+        </nav>
+
+        <aside class="sidebar" aria-hidden="true">
+            <div class="sidebar__head">
+                <strong>Menu</strong>
+                <button class="sidebar__close" aria-label="Close menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26" aria-hidden="true">
+                        <path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"></path>
+                    </svg>
+                </button>
+            </div>
+            <ul class="sidebar__menu">
+                <li><a href="#home" class="sidebar__link">Home</a></li>
+                <li><a href="#services" class="sidebar__link">Services</a></li>
+                <li><a href="#workflow" class="sidebar__link">Workflow</a></li>
+                <li><a href="#pricing" class="sidebar__link">Pricing</a></li>
+                <li><a href="#contact" class="sidebar__link sidebar__link--cta">Book Demo</a></li>
+            </ul>
+        </aside>
+    </header>
+
+    <main>
+        <section class="hero section-reveal" id="home">
+            <div class="hero__bg-shape hero__bg-shape--one"></div>
+            <div class="hero__bg-shape hero__bg-shape--two"></div>
+            <div class="container hero__inner">
+                <div class="hero__copy">
+                    <p class="pill">Client Portfolio Concept</p>
+                    <h1>Fresh clothes, zero hassle. Laundry picked up and delivered.</h1>
+                    <p class="hero__lead">
+                        Book professional wash, ironing, and stain care from your phone.
+                        We collect from your home, process with care, and return everything fresh and ready to wear.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#booking" class="btn btn--primary">Book Pickup Now</a>
+                        <a href="#pricing" class="btn btn--ghost">View Pricing</a>
+                    </div>
+                    <div class="hero__stats">
+                        <article>
+                            <h3>98%</h3>
+                            <p>On-time delivery rate</p>
+                        </article>
+                        <article>
+                            <h3>24 hrs</h3>
+                            <p>Standard turnaround</p>
+                        </article>
+                        <article>
+                            <h3>12k+</h3>
+                            <p>Items cleaned monthly</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="hero__media">
+                    <div class="hero-card">
+                        <img src="Images/2.jpg" alt="Laundry service preview">
+                        <div class="hero-card__meta">
+                            <span>Trusted by families and professionals</span>
+                            <strong>Same-city pickup and delivery service</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section-reveal" id="services">
+            <div class="container">
+                <div class="section-head">
+                    <p class="pill">Service Catalog</p>
+                    <h2>Services for everyday and special-care clothing</h2>
+                </div>
+
+                <div class="services__grid">
+                    <article class="service-card">
+                        <img class="service-card__img" src="Images/Washing & Drying (2).png" alt="Wash and dry service">
+                        <h3>Wash and Fold</h3>
+                        <p>Perfect for daily wear, kids clothes, and household garments with neat folded return.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <img class="service-card__img" src="Images/Press -Ironing (2).jpg" alt="Ironing service">
+                        <h3>Press and Ironing</h3>
+                        <p>Crisp finishing for shirts, uniforms, formal wear, and office outfits.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <img class="service-card__img" src="Images/Stain Removal Service (1).jpg" alt="Stain removal service">
+                        <h3>Stain Removal</h3>
+                        <p>Targeted stain treatment for food, oil, and ink using fabric-safe methods.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="workflow section-reveal" id="workflow">
+            <div class="container">
+                <div class="section-head">
+                    <p class="pill">Workflow</p>
+                    <h2>How it works</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline__item">
+                        <span>01</span>
+                        <h3>Schedule</h3>
+                        <p>Choose your pickup date, time slot, and service type.</p>
+                    </article>
+                    <article class="timeline__item">
+                        <span>02</span>
+                        <h3>Process</h3>
+                        <p>We sort, wash, dry, and press based on fabric and care level.</p>
+                    </article>
+                    <article class="timeline__item">
+                        <span>03</span>
+                        <h3>Deliver</h3>
+                        <p>Your clean items are delivered at your selected return window.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase section-reveal" id="pricing">
+            <div class="container showcase__layout">
+                <div>
+                    <p class="pill">Pricing</p>
+                    <h2>Simple and transparent rates</h2>
+                    <ul class="showcase__list">
+                        <li>Wash and Fold: from $2.00 per kg</li>
+                        <li>Press and Ironing: from $0.60 per item</li>
+                        <li>Stain Removal: from $1.20 per item</li>
+                        <li>Free delivery on weekly subscription plans</li>
+                    </ul>
+                </div>
+
+                <div class="showcase__gallery">
+                    <img src="Images/Washing & Drying (3).jpg" alt="Laundry operations image">
+                    <img src="Images/Press - Ironing (3).jpg" alt="Pressing process image">
+                </div>
+            </div>
+        </section>
+
+        <section class="booking section-reveal" id="booking">
+            <div class="container booking__inner">
+                <div>
+                    <p class="pill">Quick Booking</p>
+                    <h2>Book your pickup in less than one minute</h2>
+                    <p>Fill out the form and our support team will confirm your request shortly.</p>
+                </div>
+                <form class="booking-form" id="bookingForm">
+                    <label>
+                        Full Name
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>
+                        Phone Number
+                        <input type="tel" name="phone" required>
+                    </label>
+                    <label>
+                        Pickup Address
+                        <input type="text" name="address" required>
+                    </label>
+                    <label>
+                        Service
+                        <select name="service" required>
+                            <option value="">Choose a service</option>
+                            <option value="wash-fold">Wash and Fold</option>
+                            <option value="ironing">Press and Ironing</option>
+                            <option value="stain-removal">Stain Removal</option>
+                        </select>
+                    </label>
+                    <button type="submit" class="btn btn--primary">Submit Booking</button>
+                    <p class="booking-form__note" id="bookingNote" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact section-reveal" id="contact">
+            <div class="container contact__inner">
+                <div>
+                    <p class="pill">Support</p>
+                    <h2>Need help before booking?</h2>
+                    <p>Call us: +1 (555) 010-4242 | Email: care@laundrypro.com</p>
+                </div>
+                <a href="#home" class="btn btn--primary">Back to Top</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <a href="#home" class="footer__brand">
+                <img src="Images/Laundry Manage System-02.png" alt="LaundryPro logo" class="logo">
+                <span>LaundryPro</span>
+            </a>
+            <p>&copy; <span id="year"></span> LaundryPro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
